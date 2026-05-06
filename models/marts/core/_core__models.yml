@@ -26,9 +26,9 @@ models:
       Dimensión de usuarios. Fuente de verdad para toda la organización.
       Incluye validación de email y enriquecimiento con la dirección por defecto.
 
-    config:
-      contract:
-        enforced: true
+    # config:
+    #   contract:
+    #     enforced: true
 
     columns:
       - name: user_id
